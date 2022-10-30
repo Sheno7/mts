@@ -1,0 +1,14 @@
+{
+    "name": "mts/task",
+    "description": "mts task",
+    "autoload": {
+        "psr-4": {
+            "Mts\\": "src/"
+        },
+        "files": ["helper.php"]
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.23",
+        "phpunit/phpunit": "^9.5"
+    }
+}

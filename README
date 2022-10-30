@@ -1,0 +1,20 @@
+erd file on root
+Entity Relationship Diagram.png
+
+To run project
+composer install
+php -S 127.0.0.1:5000 public/index.php
+
+unit test
+    vendor/bin/phpunit
+
+
+command
+1-to migrate run
+  php mts migrate
+2-to rollback run
+  php mts migrate:rollback
+3-to run sheet and save into database run
+  php mts sheet
+
+api link "http://127.0.0.1:5000/invoice"
